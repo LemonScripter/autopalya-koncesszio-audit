@@ -129,8 +129,9 @@ $$
 $$
 
 Az ismert éves keretből visszaszámított, mintegy 525 millió Ft/km/év indikatív induló átlaghoz viszonyított relatív különbség:
+
 $$
-\Delta_{\text{mélyépítés}} = \frac{525 - 628,3}{628,3} \approx \mathbf{-16,4\%}, \quad \Delta_{\text{EUR}} = \frac{525 - 556,5}{556,5} \approx \mathbf{-5,7\%}
+\Delta_{\text{mélyépítés}} = \frac{525 - 628,3}{628,3} \approx \text{\textbf{-16,4\%}}, \quad \Delta_{\text{EUR}} = \frac{525 - 556,5}{556,5} \approx \text{\textbf{-5,7\%}}
 $$
 
 ---
@@ -148,7 +149,7 @@ Mérnöki szempontból ugyanakkor a meglévő pálya forgalom alatti 2x3 sávos 
 Indikatív mérnöki költségmodell forgalom alatti 2x3 sávos autópálya-bővítésre (összevetve a MAÚT irányelvekkel és a hazai gyorsforgalmi közbeszerzési referencia-árakkal):
 
 $$
-C_{\text{bővítés}} = C_{\text{pályaszerkezet}} + C_{\text{műtárgy\_átépítés}} + C_{\text{terelés}} + C_{\text{logisztikai\_felár}}
+C_{\text{bővítés}} = C_{\text{pályaszerkezet}} + C_{\text{műtárgy-átépítés}} + C_{\text{terelés}} + C_{\text{logisztikai-felár}}
 $$
 
 *Megjegyzés:* A komponensek nem feltétlenül additív, egymástól teljesen független költségsorok; a modell strukturális bontásként, nem végleges költségvetésként értelmezendő.
@@ -223,25 +224,25 @@ Ahol:
 * $E/V = 15\% \text{ – } 20\%$ (saját tőke aránya).
 * $D/V = 80\% \text{ – } 85\%$ (idegen tőke, szindikált bankhitel aránya).
 * $r_e = 10\% \text{ – } 14\%$ (a konzorcium elvárt saját tőke megtérülése; a piaci szakirodalomban szereplő Equity IRR csak indikatív proxyként, nem közvetlenül azonos fogalomként szerepel).
-* $r_d = \text{Euribor/Bubor} + 200–350 \text{ bázispont}$ (banki hitelkamatláb).
+* $r_d = \text{Euribor/Bubor} + \text{200–350 bázispont}$ (banki hitelkamatláb).
 * $T_c = 9\%$ (társasági adókulcs).
 
 Indikatív számítás a 2021-es piaci környezet indikatív benchmark-feltételezéseivel:
 
 $$
-WACC_{\text{magán}} = (0,15 \times 0,12) + (0,85 \times 0,055 \times 0,91) = 0,018 + 0,0425 = \mathbf{6,05\%}
+WACC_{\text{magán}} = (0,15 \times 0,12) + (0,85 \times 0,055 \times 0,91) = 0,018 + 0,0425 = \text{\textbf{6,05\%}}
 $$
 
 Ezzel szemben a szuverén kötvényhozam (ÁKK 15 éves államkötvény referenciahozam, 2021):
 
 $$
-r_g \approx \mathbf{2,85\%}
+r_g \approx \text{\textbf{2,85\%}}
 $$
 
 A finanszírozási különbözet (tőkeköltség-felár):
 
 $$
-\text{Spread} = WACC_{\text{magán}} - r_g = 6,05\% - 2,85\% = \mathbf{+3,20\% \quad (320 \text{ bázispont})}
+\text{Spread} = WACC_{\text{magán}} - r_g = 6,05\% - 2,85\% = \text{\textbf{+3,20\%}} \quad \text{(320 bázispont)}
 $$
 
 *Megjegyzés:* A 3,20 százalékpontos különbség nem az MKIF tényleges szerződéses finanszírozási felára, hanem indikatív benchmark-spread a feltételezett projekt-WACC és a 2021-es szuverén hozam között.
