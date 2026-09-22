@@ -1,11 +1,11 @@
-# Magyar Közút Nonprofit Zrt. – 2020. és 2021. Évi Mérleg és Eredménykimutatás
+# Magyar Közút Nonprofit Zrt. – 2020. és 2021. évi mérleg és eredménykimutatás
 
 **Forrás:** Magyar Közút Nonprofit Zrt. hivatalos, aláírt és könyvvizsgált Éves Beszámolói (2020. és 2021. üzleti év)
 **Fájlok:** `Magyar_Kozut_2020_evi_beszamolo.pdf` (137 oldal), `Magyar_Kozut_2021_evi_beszamolo.pdf` (140 oldal)
 
 ---
 
-## 1. Vezetői Összefoglaló / Főbb Pénzügyi Mutatók
+## 1. Vezetői összefoglaló / főbb pénzügyi mutatók
 
 A Magyar Közút Nonprofit Zrt. látja el a magyarországi országos közúthálózat (főutak, autóutak, autópályák nem koncessziós szakaszai) üzemeltetését, fenntartását és vagyonkezelését.
 
@@ -32,7 +32,7 @@ A Magyar Közút Nonprofit Zrt. látja el a magyarországi országos közúthál
 
 ---
 
-## 2. Részletes Eredménykimutatás (Összehasonlító Táblázat)
+## 2. Részletes eredménykimutatás (összehasonlító táblázat)
 
 *Adatok: millió forintban (mFt)*
 
@@ -63,9 +63,9 @@ A Magyar Közút Nonprofit Zrt. látja el a magyarországi országos közúthál
 
 ---
 
-## 3. Részletes Mérleg (Eszközök és Források)
+## 3. Részletes mérleg (eszközök és források)
 
-### Eszközök (Aktívák)
+### Eszközök (aktívák)
 
 | Eszközök tételei (millió Ft) | 2020. 12. 31. | 2021. 12. 31. |
 | :--- | :---: | :---: |
@@ -82,7 +82,7 @@ A Magyar Közút Nonprofit Zrt. látja el a magyarországi országos közúthál
 | **C. Aktív időbeli elhatárolások** | **103 625** | **33 579** |
 | **ESZKÖZÖK ÖSSZESEN** | **6 864 969** | **7 434 415** |
 
-### Források (Passzívák)
+### Források (passzívák)
 
 | Források tételei (millió Ft) | 2020. 12. 31. | 2021. 12. 31. |
 | :--- | :---: | :---: |
@@ -101,7 +101,7 @@ A Magyar Közút Nonprofit Zrt. látja el a magyarországi országos közúthál
 
 ---
 
-## 4. Stratégiai Megjegyzések a 2022-es Koncesszió Tükrében
+## 4. Stratégiai megjegyzések a 2022-es koncesszió tükrében
 
 1. **A Magyar Közút költségstruktúrája:** 
    A társaság éves működési támogatása (közszolgáltatási szerződés) 2020-ban 337 milliárd, 2021-ben 386 milliárd forint volt. Ebből a fenntartási és üzemeltetési kiadások mintegy 100-110 milliárd Ft-ot tettek ki (anyag + személyi), míg a felújítások, beruházások és értékcsökkenési leírások adták a fennmaradó részt.

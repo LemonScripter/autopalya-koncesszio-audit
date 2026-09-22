@@ -1,4 +1,4 @@
-# KSH Infláció és Építőipari Termelői Árindexek Összehasonlítása (2010–2024)
+# KSH-infláció és építőipari termelői árindexek összehasonlítása (2010–2024)
 
 **Forrás:** Központi Statisztikai Hivatal (KSH) STADAT 1.1.1.2, 1.1.1.31 és 1.1.1.32 táblák
 

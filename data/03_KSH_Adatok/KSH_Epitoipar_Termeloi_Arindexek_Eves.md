@@ -1,4 +1,4 @@
-# KSH 1.1.1.31. Az építőipar termelőiár-indexei (Éves adatok)
+# KSH 1.1.1.31. Az építőipar termelőiár-indexei (éves adatok)
 
 | ├ëv | ├ëp├¡t┼æipar | ├ëp├╝letek ├®p├¡t├®se | Egy├®b ├®p├¡tm├®ny ├®p├¡t├®se | Speci├ílis szak├®p├¡t├®s |
 | --- | --- | --- | --- | --- |

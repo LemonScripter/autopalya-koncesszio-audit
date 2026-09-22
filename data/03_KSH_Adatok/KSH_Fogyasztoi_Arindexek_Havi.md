@@ -1,4 +1,4 @@
-# KSH 1.2.1.2. Fogyasztóiár-index fogyasztási főcsoportok szerint (Havi adatok)
+# KSH 1.2.1.2. Fogyasztóiár-index fogyasztási főcsoportok szerint (havi adatok)
 
 | Id┼æszak | ├ëlelmiszerek | Szeszes italok, doh├íny├íruk | Ruh├ízkod├ísi cikkek | Tart├│s fogyaszt├ísi cikkek | H├íztart├ísi energia, f┼▒t├®sa | Egy├®b cikkek, ├╝zemanyagok | Szolg├íltat├ísok | ├ûsszesen | Nyugd├¡jas fogyaszt├│i├ír-index |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |

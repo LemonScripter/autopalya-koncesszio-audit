@@ -1,4 +1,4 @@
-# A Vitában Elhangzott Állítások Valóságtartalmának Részletes Elemzése a Dokumentumok Alapján
+# A vitában elhangzott állítások valóságtartalmának részletes elemzése a dokumentumok alapján
 
 **Elemzés tárgya:** A közösségi médiában lezajlott vita Vitézy Dávid, Oszkár Fekete, László Szőke és a hozzászólók között a 2022-es autópálya-koncesszióról (MKIF) és a 2010 előtti PPP-kről (M5, M6).  
 **Vizsgálati módszertan:** A vitában szereplő állítások összevetése a helyben legyűjtött hivatalos forrásokkal:
@@ -10,7 +10,7 @@
 
 ---
 
-## I. FŐBB TÉTELEK ÖSSZEHASONLÍTÓ MÉRLEGE
+## I. Főbb tételek összehasonlító mérlege
 
 | Vitapont / Állítás | Ki állította? | Valóságtartalom a hivatalos iratok tükrében | Cáfolat / Pontosítás a források alapján |
 | :--- | :--- | :--- | :--- |
@@ -23,14 +23,14 @@
 
 ---
 
-## II. RÉSZLETES DOKUMENTUM-ALAPÚ BIZONYÍTÁS
+## II. Részletes dokumentumalapú bizonyítás
 
-### 1. Tétel: A 23 000 milliárd forintos állítás (Vitézy)
+### 1. Tétel: a 23 000 milliárd forintos állítás (Vitézy)
 * **A dokumentumok állása:** A Fővárosi Törvényszék és Ítélőtábla által kiperelt háttérszámításokból ismertté vált, hogy a Nemzeti Koncessziós Iroda (NKOI) kalkulációiban a 35 éves futamidőre bázisáron mintegy **12 600 – 13 700 milliárd forint** kifizetést prognosztizált.
 * **Az infláció hatása:** A szerződés 100%-os inflációkövető (a KSH fogyasztói árindexéhez kötött) díjkorrekciót tartalmaz. A KSH hivatalos adatai szerint 2022-ben 14,5%, 2023-ban 17,6% volt az infláció. Ha a következő 32 évre átlagosan évi 3-4%-os pénzromlással számolunk, a **nominális kifizetés összege valóban eléri a 20 000 – 23 000 milliárd forintot**.
 * **Közgazdasági értékelés:** Vitézy kijelentése számszakilag védhető, amennyiben *nominális jövőbeli pénzáramról* beszélünk, de szándékosan retorikai hatáskeltésre épül (kamionok húszezresekkel). Bármely 35 éves állami szolgáltatás (pl. a Magyar Közút vagy a MÁV üzemeltetése) nominálisan hasonló vagy nagyobb tízbilliókra rúg.
 
-### 2. Tétel: A fajlagos díjak összehasonlítása (Szőke érvelése)
+### 2. Tétel: a fajlagos díjak összehasonlítása (Szőke érvelése)
 * **Az ÁSZ 1118. sz. jelentés alapadatai (43. oldal):**
   * Az M6 Dunaújváros–Szekszárd és Szekszárd–Pécs szakaszokon 2010-ben az alap rendelkezésre állási díj **22,3 millió Ft / km / hó** volt.
   * Ez éves szinten: **267,6 millió Ft / km / év (2010-es áron)**.
@@ -42,13 +42,13 @@
   * Szőke számítása a 2010 előtti PPP-k mai árára (~620–750 mFt/km/év) **matematikailag pontos**.
   * Azonban az M6 PPP-ben benne volt a Mecsek alagútjainak, a domborzati műtárgyaknak a **teljes zöldmezős megépítése** nulláról, saját tőkéből és hitelből. Ezzel szemben az MKIF 525 mFt-os fajlagos díja mellett a hálózat 80%-át a magyar állam már korábban felépítette.
 
-### 3. Tétel: Az M6-os 45 vs. 145 milliárdos vitája (Oszkár Fekete állítása)
+### 3. Tétel: az M6-os 45 vs. 145 milliárdos vitája (Oszkár Fekete állítása)
 * **A tény:** Oszkár Fekete azon állítása, hogy ugyanarra az M6-os szakaszra lett volna egy 45 milliárdos és egy 145 milliárdos ajánlat, **fogalmi félreértésen alapul**.
 * A 45 milliárd forint az M6 PPP-k éves rendelkezésre állási díjának nagyságrendje volt 2010 körül.
 * Az MKIF tenderén nem volt külön „M6-os ajánlat”, a tender a teljes, 1237 km-es gyorsforgalmi törzshálózatra szólt egyben.
 * **Szőke érvelése itt megáll:** a koncessziós díj keresztfinanszírozási modell: a forgalmasabb és kevesebb beavatkozást igénylő szakaszok (mint az M6) bevételei finanszírozzák az M1 háromsávosítását és a több száz kilométernyi szintrehozást.
 
-### 4. Tétel: A forgalmi kockázat és az államadósság (A vita legmélyebb pontja)
+### 4. Tétel: a forgalmi kockázat és az államadósság (a vita legmélyebb pontja)
 * **Mit mond az ÁSZ 1118. sz. jelentés (39. és 43. oldal)?**
   * **39. oldal:** Szó szerint rögzíti, hogy a koncessziós szerződéseket a kormányzat kifejezetten úgy alakította ki, hogy azok az Eurostat szabályai szerint **mérlegen kívüli (off-balance sheet)** tételek legyenek, ne növeljék a maastrichti államadósságot egy összegben. *(Ez igazolja Szőke állítását a kormányzati szándékról).*
   * **43. oldal:** Szó szerint rögzíti: *„az infláció, árindexek, devizaárfolyam feltételezett mértékétől való eltérés kockázatainak viselését teljes mértékben az Állam vállalta.”*
@@ -56,7 +56,7 @@
   * Az ÁSZ jelentés élesen bírálta ezt a modellt, mert miközben a forgalmi kockázat az államnál maradt, a magánbefektetőnek fizetett elvárt hozam (IRR: 10-14%) és a magánhitelek kamata lényegesen magasabb volt, mint amilyen kamat mellett a magyar állam közvetlenül kötvényt bocsáthatott volna ki.
   * Tehát: az adósság statisztikai elrejtése (off-balance sheet) a jövőbeli adófizetőknek sokkal több pénzébe kerül, mintha az állam nyíltan felvette volna a hitelt és állami beruházásként építette volna meg az utat.
 
-### 5. Tétel: A szerződések titkossága és az átláthatóság
+### 5. Tétel: a szerződések titkossága és az átláthatóság
 * **Szőke állítása:** *„A 2010 előtti koncessziós szerződéseket is ki kellett perelni. És így lesz a jövőbeliekkel is.”*
 * **A bírósági ítéletek és a Kúria tényei:**
   * Tény, hogy a 2004–2008-as szerződéseket is bírósági úton kényszerítették ki a civil szervezetek.
@@ -66,7 +66,7 @@
 
 ---
 
-## ÖSSZEGZÉS
+## Összegzés
 
 1. **László Szőke / Gemini érvelésének erősségei:**
    * A KSH-indexekkel és az ÁSZ adatokkal alátámasztott reálérték-számítás számszakilag helytálló: a 2010 előtti PPP-k fajlagos költsége mai áron valóban meghaladta a 650–700 millió Ft/km/évet.

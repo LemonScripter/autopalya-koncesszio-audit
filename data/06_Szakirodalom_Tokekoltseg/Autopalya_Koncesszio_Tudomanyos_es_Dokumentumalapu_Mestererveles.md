@@ -1,4 +1,4 @@
-# A Magyar Gyorsforgalmi Úthálózat Koncessziós Rendszerének (MKIF vs. PPP) Komplex Mérnöki, Pénzügyi és Jogtudományi Elemzése
+# A magyar gyorsforgalmi úthálózat koncessziós rendszerének (MKIF vs. PPP) komplex mérnöki, pénzügyi és jogtudományi elemzése
 
 **Dátum:** 2026. szeptember 21.  
 **Cél:** A 2022-es autópálya-koncessziós szerződés és a 2010 előtti PPP-modellek összehasonlító érvelésének újrafogalmazása a rendelkezésre álló primer dokumentumok, hatósági jelentések, bírósági ítéletek és nemzetközi tőkeköltség-szakirodalom alapján.  
@@ -6,18 +6,18 @@
 
 ---
 
-## TARTALOMJEGYZÉK
-1. **Primer Források és Szakirodalmi Hivatkozások**
-2. **I. Pillér: A Névleges vs. Reálérték Kérdése (Matematikai audit)**
-3. **II. Pillér: Fizikai Tőketartalom és Mérnöki Logisztika (Zöldmező vs. sávbővítés)**
-4. **III. Pillér: Műszaki Tartalom, SLA és a Kötbérrendszer Történeti Valósága**
-5. **IV. Pillér: Tőkeköltség (WACC), Kockázatmegosztás és Államadósság (Közgazdasági levezetés)**
-6. **V. Pillér: Jogállamiság, Bírósági Ítéletek és Transzparencia**
-7. **VI. A Mesterérvelés Szintézise: A professzionális, cáfolhatatlan álláspont**
+## Tartalomjegyzék
+1. **Primer források és szakirodalmi hivatkozások**
+2. **I. Pillér: a névleges vs. reálérték kérdése (matematikai audit)**
+3. **II. Pillér: fizikai tőketartalom és mérnöki logisztika (zöldmező vs. sávbővítés)**
+4. **III. Pillér: műszaki tartalom, SLA és a kötbérrendszer történeti valósága**
+5. **IV. Pillér: tőkeköltség (WACC), kockázatmegosztás és államadósság (közgazdasági levezetés)**
+6. **V. Pillér: jogállamiság, bírósági ítéletek és transzparencia**
+7. **VI. A mesterérvelés szintézise: a professzionális, cáfolhatatlan álláspont**
 
 ---
 
-## 1. PRIMER FORRÁSOK ÉS SZAKIRODALMI HIVATKOZÁSOK
+## 1. Primer források és szakirodalmi hivatkozások
 
 Jelen elemzés kizárólag ellenőrzött, helyben szövegszerűen archivált primer forrásokra és lektorált tudományos munkákra támaszkodik:
 
@@ -42,7 +42,7 @@ Jelen elemzés kizárólag ellenőrzött, helyben szövegszerűen archivált pri
 
 ---
 
-## I. PILLÉR: A NÉVLEGES VS. REÁLÉRTÉK KÉRDÉSE (MATEMATIKAI AUDIT)
+## I. Pillér: a névleges vs. reálérték kérdése (matematikai audit)
 
 ### 1. Vitézy Dávid 23 000 milliárdos állításának dekonstrukciója
 Vitézy Dávid állítása szerint az állam 35 év alatt *„23 000 milliárd forintot fizet ki a közös pénzünkből az MKIF-nek, ami 46 kamiont megtöltő húszezres”*.
@@ -85,7 +85,7 @@ László Szőke azon állítása, hogy a 2010 előtti PPP-k költsége mai áron
 
 ---
 
-## II. PILLÉR: FIZIKAI TŐKETARTALOM ÉS MÉRNÖKI LOGISZTIKA (ZÖLDMEZŐ VS. SÁVBŐVÍTÉS)
+## II. Pillér: fizikai tőketartalom és mérnöki logisztika (zöldmező vs. sávbővítés)
 
 A fenti matematikai előny mögött azonban felmerül a kritikusok jogos kérdése: **Ha a 2022-es koncesszióban a hálózat 85%-a már készen állt, miért nem 70-80%-kal csökkent a díj, miért csak 20-30%-kal?**
 
@@ -102,7 +102,7 @@ Közlekedésépítési tény, hogy egy meglévő, telített gyorsforgalmi út 2x
 * **Munkaidő- és logisztikai felár:** A munkák jelentős részét éjszaka, szűkített munkaterületen kell végezni, ami a nehézgépek termelékenységét 40-50%-kal csökkenti, a fajlagos élőmunka- és gépköltséget pedig megnöveli.
 * **A mérnöki ítélet:** Egy forgalom alatti 2x3 sávos autópálya-bővítés fajlagos kilométerköltsége (műtárgyakkal és burkolatcserével) ma eléri a **4,0–5,5 milliárd Ft/km** összeget, ami szinte megegyezik egy síkvidéki zöldmezős autópálya építési költségével.
 
-### 3. A hálózati aránytalanság (A szintrehozás vs. a maradék 700 km)
+### 3. A hálózati aránytalanság (a szintrehozás vs. a maradék 700 km)
 Itt érhető tetten a Szőke-féle érvelés komoly gyenge pontja:
 * Az MKIF által vállalt **szintrehozási kötelezettség (kötő- és kopóréteg csere, alapréteg-stabilizáció) ~538 km-re (a hálózat 43%-ára)** vonatkozik az első 10-11 évben.
 * **Mi történik a maradék ~700 km-en?**  
@@ -111,7 +111,7 @@ Itt érhető tetten a Szőke-féle érvelés komoly gyenge pontja:
 
 ---
 
-## III. PILLÉR: MŰSZAKI TARTALOM, SLA ÉS A KÖTBÉRRENDSZER TÖRTÉNETI VALÓSÁGA
+## III. Pillér: műszaki tartalom, SLA és a kötbérrendszer történeti valósága
 
 A vitában elhangzott korábbi érvelés egyik legsúlyosabb tévedése az volt, miszerint *„2010 előtt nem léteztek SLA-k, így azoknak áruk sem volt”*.
 
@@ -132,7 +132,7 @@ Bár a szankciórendszer régen is létezett, a 2022-es koncessziós szerződés
 
 ---
 
-## IV. PILLÉR: TŐKEKÖLTSÉG (WACC), KOCKÁZATMEGOSZTÁS ÉS ÁLLAMADÓSSÁG (KÖZGAZDASÁGI LEVEZETÉS)
+## IV. Pillér: tőkeköltség (WACC), kockázatmegosztás és államadósság (közgazdasági levezetés)
 
 Ez a pont a teljes koncessziós vita elméleti magja, ahol mindkét fél érvelése elbukott a valós pénzügyi mechanizmusok felületes ismerete miatt.
 
@@ -153,7 +153,7 @@ Ha a magyar állam közvetlenül bocsát ki államkötvényt a fejlesztések fin
 * **A tőkeköltség-különbözet (Financing spread):**
   $$\Delta = WACC_{\text{magán}} - r_{g\ (\text{állami})} \approx \mathbf{+3,5\% – +6,0\%}$$
 
-### 3. Az ÁSZ 1118. sz. jelentés 39–40. oldalának ítélete: Az „Off-Balance Sheet” tévhit
+### 3. Az ÁSZ 1118. sz. jelentés 39–40. oldalának ítélete: az „off-balance sheet” tévhit
 A korábbi Gemini-érvelés azt állította, hogy a modell azért volt kedvező, mert *„az államadósság közvetlen növelése nélkül, olcsóbb banki hitelekből valósul meg a beruházás”*.
 
 **Ez az állítás szakmailag tarthatatlan, és az ÁSZ már 2011-ben cáfolta:**
@@ -175,7 +175,7 @@ A közgazdasági elmélet (EPEC, Engel et al.) szerint a magasabb magántőkekö
 
 ---
 
-## V. PILLÉR: JOGÁLLAMISÁG, BÍRÓSÁGI ÍTÉLETEK ÉS TRANSZPARENCIA
+## V. Pillér: jogállamiság, bírósági ítéletek és transzparencia
 
 A vitában Szőke azzal hárította el a szerződések nyilvánosságának hiányát, hogy *„a 2010 előttieket is ki kellett perelni, és a jövőbeliekkel is így lesz, mert csak...”*
 
@@ -191,7 +191,7 @@ Ez a megközelítés jogilag tarthatatlan. A magyar bíróságok az elmúlt éve
 
 ---
 
-## VI. A MESTERÉRVELÉS SZINTÉZISE: A PROFESSZIONÁLIS, CÁFOLHATATLAN ÁLLÁSPONT
+## VI. A mesterérvelés szintézise: a professzionális, cáfolhatatlan álláspont
 
 Ha egy vitában megcáfolhatatlan, a politikai demagógiától megtisztított, tudományosan és forrásilag kikezdhetetlen álláspontot akarunk képviselni, a következő szintézist kell alkalmazni:
 

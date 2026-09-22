@@ -1,20 +1,20 @@
-# Bírósági Ítéletek és Kúriai Döntések az Autópálya-koncessziós Szerződések Adatigényléséről
+# Bírósági ítéletek és kúriai döntések az autópálya-koncessziós szerződések adatigényléséről
 
 **Tárgy:** A 35 éves magyarországi gyorsforgalmi úthálózat-koncessziós szerződés (MKIF Magyar Koncessziós Infrastruktúra Fejlesztő Zrt. / Themis magántőkealap-konzorcium és a Nemzeti Koncessziós Iroda – NKOI között 2022. május 17-én létrejött megállapodás) 11 pénzügyi és műszaki melléklete kiadására kötelező bírósági ítéletek, kúriai felülvizsgálati határozat és alkotmánybírósági döntés.
 
 ---
 
-## 1. Az Eljárási Lánc és a Hivatalos Ügyszámok
+## 1. Az eljárási lánc és a hivatalos ügyszámok
 
 A koncessziós szerződés megkötését követően az NKOI a szerződéshez tartozó 11 melléklet (köztük a díjszámítások, a pénzügyi modellek és az ütemtervek) megismerését az iratbetekintés során megtagadta, az ajánlattevők kérelmére üzleti titokra hivatkozva. A felperes közérdekű adat kiadása iránt pert indított az NKOI ellen, amelybe a nyertes koncesszor (MKIF Zrt.) az alperes érdekében beavatkozóként lépett be.
 
 A per két teljes fórumrendszeri kört futott be:
 
-### I. eljárási kör (Hatályon kívül helyezés)
+### I. eljárási kör (hatályon kívül helyezés)
 1. **Elsőfok:** Fővárosi Törvényszék `25.P.20.477/2023/11.` számú ítélet – A bíróság döntő mértékben kötelezte az NKOI-t az adatok kiadására.
 2. **Másodfok:** Fővárosi Ítélőtábla `2.Pf.20.228/2023/5/II.` számú végzés – Az elsőfokú ítéletet eljárási szabálysértés (a beavatkozó perbeli védekezési jogainak formális hiányossága) miatt hatályon kívül helyezte és új eljárásra utasította a Törvényszéket.
 
-### II. megismételt eljárási kör (Jogerős és Kúriai döntés)
+### II. megismételt eljárási kör (jogerős és kúriai döntés)
 1. **Megismételt elsőfok:** Fővárosi Törvényszék `25.P.21.778/2023/18.` számú kijavított ítélet (kihirdetve: 2023. július 18.). A Törvényszék a `25.P.21.778/2023/10.` számú végzésével elutasította a beavatkozó igazságügyi szakértő kirendelésére vonatkozó bizonyítási indítványát mint felesleges szakkérdést, és az adatok kiadására kötelezte az alperest, részleges kitakarást engedélyezve a 3/E. és a 15. mellékletben.
 2. **Megismételt másodfok (Jogerős ítélet):** Fővárosi Ítélőtábla **`2.Pf.20.469/2023/9/I.`** számú ítélet (kihirdetve: 2023. október 17.). Megváltoztatta az elsőfokú ítéletet: a 3/E. melléklet és a 15. melléklet (Ajánlat II. kötet 120–179. oldalain lévő díjszámítási táblázatok) tekintetében **felismerhetetlenné tétel (kitakarás) nélkül kötelezte az alperest az adatok kiadására**. Kizárólag az ajánlati indikatív ütemterv bizonyos naptári határideje tekintetében engedélyezett kitakarást.
 3. **Kúria mint felülvizsgálati bíróság:** **`Kúria Pfv.IV.21.194/2023/15.`** számú ítélet (dátum: **2024. március 13.**; közzétételi azonosító: `K-PJ-2024-94`).
@@ -24,7 +24,7 @@ A per két teljes fórumrendszeri kört futott be:
 
 ---
 
-## 2. A Kiadni Rendelt Mellékletek Köre
+## 2. A kiadni rendelt mellékletek köre
 
 A Kúria által helybenhagyott jogerős ítélet szerint az alperes (NKOI) az alábbi 11 melléklet kiadására köteles:
 * **1. számú melléklet:** A koncessziós eljárás eredeti műszaki tartalma és feladatainak részletezése.
@@ -40,7 +40,7 @@ A Kúria által helybenhagyott jogerős ítélet szerint az alperes (NKOI) az al
 
 ---
 
-## 3. A Kúria Elvi Jelentőségű Megállapításai (`Pfv.IV.21.194/2023/15.`)
+## 3. A Kúria elvi jelentőségű megállapításai (`Pfv.IV.21.194/2023/15.`)
 
 ### A) Az információszabadság és a közpénzek elsőbbsége
 * **Alaptörvény 39. cikk (2) bekezdés és Infotv. 26. § (1):** A közpénzekkel gazdálkodó szervezetek a nyilvánosság előtt kötelesek elszámolni, a közpénzekre és nemzeti vagyonra vonatkozó adatok közérdekűek.
@@ -49,14 +49,14 @@ A Kúria által helybenhagyott jogerős ítélet szerint az alperes (NKOI) az al
 ### B) Az adatelv érvényesülése és az „iratelv” tilalma
 * Az Alkotmánybíróság korábbi gyakorlatával összhangban (`4/2021. AB`, `21/2013. AB`, `29/2014. AB`) a bíróság kimondta: **az iratelv alkalmazása tilos**. Egy dokumentum vagy melléklet teljes egésze nem zárható el a nyilvánosság elől pusztán azért, mert abban részadatok titoknak minősülhetnének. A korlátozás kizárólag konkrét adatra és csak az aránytalan sérelem egyedi bizonyítása mellett alkalmazható.
 
-### C) A szakértői bizonyítás mellőzése – A titokvédelmi mérlegelés tiszta jogkérdés
+### C) A szakértői bizonyítás mellőzése – a titokvédelmi mérlegelés tiszta jogkérdés
 * A beavatkozó koncesszor azzal érvelt, hogy igazságügyi könyv- és pénzügyi szakértő kirendelése nélkül nem dönthető el, hogy a pénzügyi modell adatai üzleti titkot vagy know-how-t képeznek-e.
 * A Kúria ítélete rögzíti:
   > *„Az üzleti titokra alapított megtagadási ok fennállásának megítélése nem igényel minden esetben szakértői bizonyítást. Az üzleti tevékenység végzése szempontjából az aránytalan sérelemről nem önmagában a szakértői vélemény alapján kell dönteni, hanem a közérdekű teszt elvégzése alapján. Az adatelv alapján nem a szakértő feladata, hogy az adatösszességből a védett ismerettel érintett adatokat kiszűrje.”*
 
 ---
 
-## 4. Vonatkozó Bírósági Döntések Összehasonlító Táblázata
+## 4. Vonatkozó bírósági döntések összehasonlító táblázata
 
 | Bírósági Szint / Ügyszám | Dátum | Szereplők | Ügy tárgya és Megállapítás |
 | :--- | :---: | :--- | :--- |
