@@ -13,7 +13,7 @@
 
 ## 📌 Vezetői összefoglaló (executive summary)
 
-Ez a repozitórium tartalmazza a **„A magyar gyorsforgalmi úthálózat koncessziós rendszerének komplex elemzése”** című átfogó kutatás **teljes, 100%-ban ellenőrizhető adatbázisát és számítási modelljét**.
+Ez a repozitórium tartalmazza a [**„A magyar gyorsforgalmi úthálózat koncessziós rendszerének komplex elemzése”**](cikk/tanulmany.md) című átfogó kutatás **teljes, 100%-ban ellenőrizhető adatbázisát és számítási modelljét**.
 
 A projekt célja a teljes körű szakmai transzparencia: **bárki által reprodukálhatóvá teszi** a 2010 előtti autópálya PPP-k (M5, M6/M60) és a 2022-ben 35 évre megkötött MKIF gyorsforgalmi koncessziós szerződés pénzügyi, statisztikai és mérnöki összevetését.
 
@@ -193,7 +193,7 @@ A kutatás során felhasznált hivatalos dokumentumok a [`data/`](file:///C:/Use
 ```text
 autopalya-koncesszio-audit/
 ├── cikk/                                   # A publikált végleges tanulmány
-│   └── A_magyar_gyorsforgalmi_uthalozat_koncesszios_rendszerenek_komplex_elemzese.md
+│   └── tanulmany.md                        # A teljes körű, lektorált szakpolitikai-pénzügyi elemzés
 ├── data/                                   # Primer hatósági és bírósági források
 │   ├── 01_ASZ_Jelentesek/                  # ÁSZ-jelentések (PDF, TXT, MD)
 │   ├── 02_Jogszabalyok/                    # Törvények és közlönyök
