@@ -47,24 +47,30 @@ Ahol $A_{35, r_r} = \frac{1 - (1 + r_r)^{-35}}{r_r}$ a 35 éves annuitási fakto
 
 Fontos módszertani korlát azonban, hogy az infláció semlegesítése csak a teljes egészében, azonos indexszel indexált RÁD-komponensre vonatkozik. A fejlesztési díjak, részlegesen indexált költségek, fix kamatozású finanszírozás, adók és szerződésmódosítások esetében külön nominális cash-flow-modellezés szükséges.
 
-Szemléltető példaként (kizárólag az exponenciális növekedés és a több évtizedes nominális összeadások torzító hatásának illusztrálására): a Magyar Közút Nonprofit Zrt. 2021. évi beszámolóiban szereplő, mintegy 386 milliárd forintos bevételi és költségvetési támogatási nagyságrendet — kizárólag szemléltető jelleggel — 35 évre, évi 3,5%-os indexálással felfuttatva $\sum_{t=1}^{35} 386 \times 1,035^t = 386 \times 1,035 \times \frac{1,035^{35}-1}{0,035} \approx \mathbf{26\ 640 \text{ milliárd Ft}}$-ot tenne ki (illetve év eleji kifizetési konvencióval mintegy 25 740 milliárd forint kumulált összeget adna). Fontos rögzíteni, hogy ez a példa nem tekinthető a koncesszió közvetlen benchmarkjának, mivel a Magyar Közút a teljes 32 000 km-es országos úthálózatot kezeli és eltérő feladatokat lát el, csupán azt szemlélteti, hogy 35 év távlatában a nominális összeadások miként torzítják a nominális költségérzékelést.
+Szemléltető példaként (kizárólag az exponenciális növekedés és a több évtizedes nominális összeadások torzító hatásának illusztrálására): a Magyar Közút Nonprofit Zrt. 2021. évi beszámolóiban szereplő, mintegy 386 milliárd forintos bevételi és költségvetési támogatási nagyságrendet — kizárólag szemléltető jelleggel — 35 évre, évi 3,5%-os indexálással felfuttatva mintegy **26 640 milliárd forintot** tenne ki (illetve év eleji kifizetési konvencióval mintegy 25 740 milliárd forint kumulált összeget adna):
+
+$$
+\sum_{t=1}^{35} 386 \times 1,035^t = 386 \times 1,035 \times \frac{1,035^{35}-1}{0,035} \approx \text{\textbf{26 640 milliárd Ft}}
+$$
+
+Fontos rögzíteni, hogy ez a példa nem tekinthető a koncesszió közvetlen benchmarkjának, mivel a Magyar Közút a teljes 32 000 km-es országos úthálózatot kezeli és eltérő feladatokat lát el, csupán azt szemlélteti, hogy 35 év távlatában a nominális összeadások miként torzítják a nominális költségérzékelést.
 
 ### 2.1.1. Számítási modellek és jelenérték-szimulációk
 
-**1. Kumulált nominális kifizetés a tényleges inflációval** ($\text{CPI}_{2022} = 14,5\%$, $\text{CPI}_{2023} = 17,6\%$, $\text{CPI}_{2024} = 3,7\%$), majd a fennmaradó futamidőre feltételezett hosszú távú inflációval ($\pi = 3,5\%$):
+**1. Kumulált nominális kifizetés a tényleges inflációval** (KSH fogyasztói árindex tényadatok: CPI 2022 = 14,5%, CPI 2023 = 17,6%, CPI 2024 = 3,7%), majd a fennmaradó futamidőre feltételezett hosszú távú inflációval ($\pi = 3,5$%):
 
 $$
-\sum_{t=1}^{35} \text{RÁD}_t = \sum_{t=1}^{35} \left[ \text{RÁD}_0 \prod_{i=1}^t (1 + \pi_i) \right] \approx \mathbf{20\ 500} \text{ – } \mathbf{23\ 200 \text{ milliárd Ft}}
+\sum_{t=1}^{35} \text{RÁD}_t = \sum_{t=1}^{35} \left[ \text{RÁD}_0 \prod_{i=1}^t (1 + \pi_i) \right] \approx \text{\textbf{20 500 – 23 200 milliárd Ft}}
 $$
 
 **2. Inflációtól semlegesített reálértékű annuitás érzékenysége a reál diszkontrátára** ($\text{RÁD}_0 = 375 \text{ Mrd Ft}$ bázis üzemeltetési díj mellett):
 
-| Reál diszkontráta ($r_r$) | Várható infláció ($\pi = 2,5\%$) | Várható infláció ($\pi = 3,5\%$) | Várható infláció ($\pi = 5,0\%$) | Annuitási szorzó ($A_{35, r_r}$) | Reál jelenérték (NPV) |
+| Reál diszkontráta ($r_r$) | Várható infláció ($\pi = 2,5$%) | Várható infláció ($\pi = 3,5$%) | Várható infláció ($\pi = 5,0$%) | Annuitási szorzó ($A_{35, r_r}$) | Reál jelenérték (NPV) |
 | :---: | :---: | :---: | :---: | :---: | :---: |
-| **$r_r = 1,5\%$** | 10 030 Mrd Ft | 10 030 Mrd Ft | 10 030 Mrd Ft | 26,75 | **10 030 Mrd Ft** |
-| **$r_r = 2,5\%$** | 8 680 Mrd Ft | 8 680 Mrd Ft | 8 680 Mrd Ft | 23,15 | **8 680 Mrd Ft** |
-| **$r_r = 3,5\%$** | **7 500 Mrd Ft** | **7 500 Mrd Ft** | **7 500 Mrd Ft** | **20,00** | **7 500 Mrd Ft** |
-| **$r_r = 4,5\%$** | 6 560 Mrd Ft | 6 560 Mrd Ft | 6 560 Mrd Ft | 17,49 | **6 560 Mrd Ft** |
+| **$r_r = 1,5$%** | 10 030 Mrd Ft | 10 030 Mrd Ft | 10 030 Mrd Ft | 26,75 | **10 030 Mrd Ft** |
+| **$r_r = 2,5$%** | 8 680 Mrd Ft | 8 680 Mrd Ft | 8 680 Mrd Ft | 23,15 | **8 680 Mrd Ft** |
+| **$r_r = 3,5$%** | **7 500 Mrd Ft** | **7 500 Mrd Ft** | **7 500 Mrd Ft** | **20,00** | **7 500 Mrd Ft** |
+| **$r_r = 4,5$%** | 6 560 Mrd Ft | 6 560 Mrd Ft | 6 560 Mrd Ft | 17,49 | **6 560 Mrd Ft** |
 
 *Megjegyzés:* A táblázat oszlopaiban az értékek megegyeznek, mert a Fisher-összefüggés alapján a 100%-ban CPI-indexált pénzáramok és a nominális diszkontráta inflációs prémiuma teljesen semlegesíti egymást. Ha a költségek egy része fix forintkamatú hitel, az infláció emelkedése reálértéken devalválja a tőketartozást, növelve a koncesszor járadékát.
 
@@ -96,7 +102,7 @@ $$
 I_{2010\to2024} = \prod_{t=2011}^{2024} \frac{\text{Index}_t}{100}
 $$
 
-Fontos rögzíteni, hogy a 2,348 és 2,438 értékeket a KSH nem egyetlen statikus adatként publikálja, hanem azok a közzétett éves termelői árindexekből képzett kumulatív mutatószámok. A mélyépítési termelői árindex kumulált szorzója $2,348$ ($+134,8\%$-os áremelkedés), míg a kifejezetten az utak alcsoportra vonatkozó index szorzója $2,438$ ($+143,8\%$). Ezzel a 2010-es bázisdíj mai megfelelője 628,3 és 652,4 millió Ft/km/év közé esik.
+Fontos rögzíteni, hogy a 2,348 és 2,438 értékeket a KSH nem egyetlen statikus adatként publikálja, hanem azok a közzétett éves termelői árindexekből képzett kumulatív mutatószámok. A mélyépítési termelői árindex kumulált szorzója $2,348$ (+134,8%-os áremelkedés), míg a kifejezetten az utak alcsoportra vonatkozó index szorzója $2,438$ (+143,8%). Ezzel a 2010-es bázisdíj mai megfelelője 628,3 és 652,4 millió Ft/km/év közé esik.
 2. **Szerződéses deviza- és uniós árindex:** Az ÁSZ 1118. jelentés szerint az M6-os díjak devizában (EUR) voltak rögzítve, és az árfolyamkockázatot az állam viselte. A 2010-es 275,4 Ft/EUR árfolyamon az akkori díj mintegy 971 700 EUR/km/év volt. Ha erre az európai mélyépítési inflációt (~145%) és a mai euróárfolyamot (~395 Ft/EUR) alkalmazzuk, az eredmény 556,5 millió Ft/km/év.
 
 Az ismert éves keretből visszaszámított, mintegy 525 millió Ft/km/év indikatív induló átlag nem közvetlenül a teljes szerződésből kiolvasott homogén alapdíj, hanem az ismert éves keret és az 1237 km-es induló hálózat hányadosaként képzett indikatív átlag és visszaszámított becslés. Az elemző sajtó (a G7 2022. májusi és a Telex 2022. júniusi feltáró cikkei) a 2022/2023-as központi költségvetési törvényjavaslatok és az NKOI fejezeti előirányzatai alapján az éves bruttó kifizetési keret (~650 milliárd forint) áfamentes, nettó üzemeltetési és rendelkezésre állási hányadából számította ki ezt az indikatív fajlagos nagyságrendet az 1237 km-es hálózatra vetítve.
@@ -113,8 +119,8 @@ $$
 
 | KSH STADAT Kategória | 2010 bázis | 2015 szint | 2020 szint | 2024 kumulált szorzó ($I$) | Számított mai fajlagos díj |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Mélyépítés (1.1.1.31)** | 100,0% | 108,4% | 148,2% | **2,348** (+134,8%) | $267,6 \times 2,348 = \mathbf{628,3 \text{ M Ft/km/év}}$ |
-| **Utak alcsoport (1.1.1.32)** | 100,0% | 107,9% | 151,6% | **2,438** (+143,8%) | $267,6 \times 2,438 = \mathbf{652,4 \text{ M Ft/km/év}}$ |
+| **Mélyépítés (1.1.1.31)** | 100,0% | 108,4% | 148,2% | **2,348** (+134,8%) | $267,6 \times 2,348 = \text{\textbf{628,3 M Ft/km/év}}$ |
+| **Utak alcsoport (1.1.1.32)** | 100,0% | 107,9% | 151,6% | **2,438** (+143,8%) | $267,6 \times 2,438 = \text{\textbf{652,4 M Ft/km/év}}$ |
 
 *Módszertani megjegyzés:* A táblázatban szereplő értékek a KSH hivatalos éves láncindexeinek kumulált szorzatai 2010=100-as újrabázisolással. A KSH nem közvetlenül ilyen több évtizedes összefüggő indexeket közöl; a számítás a mélyépítési és útépítési alágazati módszertan folytonosságának feltételezésével készült.
 
@@ -221,11 +227,11 @@ WACC = \left( \frac{E}{V} \times r_e \right) + \left( \frac{D}{V} \times r_d \ti
 $$
 
 Ahol:
-* $E/V = 15\% \text{ – } 20\%$ (saját tőke aránya).
-* $D/V = 80\% \text{ – } 85\%$ (idegen tőke, szindikált bankhitel aránya).
-* $r_e = 10\% \text{ – } 14\%$ (a konzorcium elvárt saját tőke megtérülése; a piaci szakirodalomban szereplő Equity IRR csak indikatív proxyként, nem közvetlenül azonos fogalomként szerepel).
-* $r_d = \text{Euribor/Bubor} + \text{200–350 bázispont}$ (banki hitelkamatláb).
-* $T_c = 9\%$ (társasági adókulcs).
+* **Saját tőke aránya ($E/V$):** 15–20%
+* **Idegen tőke aránya ($D/V$):** 80–85% (szindikált bankhitel)
+* **Elvárt saját tőke megtérülés ($r_e$):** 10–14% (a konzorcium elvárt saját tőke megtérülése; a piaci szakirodalomban szereplő Equity IRR csak indikatív proxyként, nem közvetlenül azonos fogalomként szerepel)
+* **Banki hitelkamatláb ($r_d$):** Euribor/Bubor + 200–350 bázispont
+* **Társasági adókulcs ($T_c$):** 9%
 
 Indikatív számítás a 2021-es piaci környezet indikatív benchmark-feltételezéseivel:
 
