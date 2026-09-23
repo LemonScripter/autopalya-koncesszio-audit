@@ -21,7 +21,7 @@ if sys.platform == "win32":
         pass
 
 from src.ksh_chains import get_rebased_ksh_summary
-from src.km_tariff_comparison import get_full_tariff_comparison_table
+from src.km_tariff_comparison import get_full_tariff_comparison_table, get_integrated_comparison_matrix
 from src.npv_model import (
     calculate_real_npv_sensitivity,
     calculate_magyar_kozut_illustrative,
@@ -64,6 +64,9 @@ def run_full_audit():
     print("-" * 88)
     tariff_df = get_full_tariff_comparison_table()
     print(tariff_df.to_string(index=False))
+    print("\n--- Integrált 4 szintes összehasonlítási mátrix (alma az almával feloldás) ---")
+    matrix_df = get_integrated_comparison_matrix()
+    print(matrix_df.to_string(index=False))
     print("\n")
 
     # 3. Jelenérték és Annuitási Modell (Fisher-egyenlet, Érzékenység)

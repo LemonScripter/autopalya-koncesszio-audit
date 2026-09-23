@@ -22,5 +22,8 @@ Thumbs.db
 # Local exploratory dev archive
 archive_dev_tools/
 
-# Working draft with local notes
+# Working drafts with local notes (ignored in root and all subdirectories)
+/A_magyar_gyorsforgalmi_uthalozat_koncesszios_rendszerenek_komplex_elemzese.md
+cikk/A_magyar_gyorsforgalmi_uthalozat_koncesszios_rendszerenek_komplex_elemzese.md
 *A_magyar_gyorsforgalmi_uthalozat_koncesszios_rendszerenek_komplex_elemzese.md
+

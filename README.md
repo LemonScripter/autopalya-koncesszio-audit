@@ -79,15 +79,17 @@ pytest tests/ -v
 ```
 *Kimenet:*
 ```text
-tests/test_reproducibility.py::test_data_integrity_no_mocks PASSED       [ 14%]
-tests/test_reproducibility.py::test_ksh_chain_multipliers PASSED         [ 28%]
-tests/test_reproducibility.py::test_m6_vs_mkif_tariffs PASSED            [ 42%]
-tests/test_reproducibility.py::test_npv_and_fisher_annuity PASSED        [ 57%]
-tests/test_reproducibility.py::test_wacc_and_financing_spread PASSED     [ 71%]
-tests/test_reproducibility.py::test_m1_engineering_widening PASSED       [ 85%]
-tests/test_reproducibility.py::test_penalties_sla_modern_thresholds PASSED [100%]
+tests/test_reproducibility.py::test_data_integrity_no_mocks PASSED             [ 11%]
+tests/test_reproducibility.py::test_ksh_chain_multipliers PASSED               [ 22%]
+tests/test_reproducibility.py::test_m6_vs_mkif_tariffs PASSED                  [ 33%]
+tests/test_reproducibility.py::test_npv_and_fisher_annuity PASSED              [ 44%]
+tests/test_reproducibility.py::test_wacc_and_financing_spread PASSED           [ 55%]
+tests/test_reproducibility.py::test_m1_engineering_widening PASSED             [ 66%]
+tests/test_reproducibility.py::test_penalties_sla_modern_thresholds PASSED       [ 77%]
+tests/test_reproducibility.py::test_integrated_comparison_matrix_and_budget_evolution PASSED [ 88%]
+tests/test_reproducibility.py::test_source_files_and_references_exist PASSED     [100%]
 
-============================== 7 passed in 2.79s ==============================
+============================== 9 passed in 2.46s ==============================
 ```
 
 ### 4. Interaktív Jupyter notebook megnyitása
@@ -104,14 +106,20 @@ Az ÁSZ 1118. jelentés szerinti 2010-es havi 22,3 M Ft/km bázisdíj (évesítv
 
 | Konstrukció / Módszer | Fajlagos Díj (M Ft/km/év) | Indexálás / Számítási Alap | Relatív eltérés az MKIF-hez képest |
 | :--- | :---: | :--- | :---: |
-| **M6 PPP Bázis (2010)** | `267,6` | ÁSZ 1118 (22,3 M Ft/hó × 12) nominális bázis | — |
-| **M6 Reál: KSH Mélyépítés (1.1.1.31)** | `628,3` | KSH láncszorzó: **2,348** (+134,8%) | **-16,4%** |
-| **M6 Reál: KSH Utak alcsoport (1.1.1.32)**| `652,4` | KSH láncszorzó: **2,438** (+143,8%) | **-19,5%** |
-| **M6 Reál: EUR deviza + EU infláció** | `556,5` | 971 700 EUR × 1,45 (HICP) × 395 Ft/EUR | **-5,7%** |
-| **MKIF Koncesszió Indikatív Átlag (2022)**| **`525,0`** | Éves költségvetési keretből visszaszámított indikatív átlag | **BÁZIS (0,0%)** |
+| **M6 PPP bázis (2010)** | `267,6` | ÁSZ 1118 (22,3 M Ft/hó × 12) nominális bázis | — |
+| **M6 reál: KSH mélyépítés (1.1.1.31)** | `628,3` | KSH láncszorzó: **2,348** (+134,8%) | **-16,4%** |
+| **M6 reál: KSH utak alcsoport (1.1.1.32)**| `652,4` | KSH láncszorzó: **2,438** (+143,8%) | **-19,5%** |
+| **M6 reál: EUR deviza + EU infláció** | `556,5` | 971 700 EUR × 1,45 (HICP) × 395 Ft/EUR | **-5,7%** |
+| **MKIF koncesszió indikatív átlag (2022)**| **`525,0`** | Éves költségvetési keretből visszaszámított indikatív átlag | **BÁZIS (0,0%)** |
 
 > [!NOTE]
-> Az adatok bizonyítják, hogy az MKIF indikatív induló fajlagos kilométerdíja a 2010-es M6 PPP reálértékéhez képest **nem drágább**, hanem számítási módszertantól függően 5,7–19,5%-kal alacsonyabb, miközben a vállalt műszaki és vagyoni kötelezettségek köre eltérő.
+> **A díjak időbeli és funkcionális rétegződése (az „alma-körte” probléma feloldása):**
+> 1. **Induló ajánlati bázis (2022 május):** nettó **96,2 M Ft/km/év** (üzemeltetés [RÁD] + szintrehozás [RÁASZD]).
+> 2. **Költségvetési tény (2023):** bruttó **147,1 M Ft/km/év** (a 2022-es +14,5%-os KSH inflációval indexált nettó 115,9 M + 27% ÁFA).
+> 3. **Megemelt kifizetés (2026):** bruttó **293,5 M Ft/km/év** (kumulált infláció és az M1 bővítés előkészítése).
+> 4. **35 éves teljes névleges átlag (Life-Cycle Cost):** **525,0 M Ft/km/év** (a 23 196 Mrd Ft teljes keretből).  
+> Az M6 PPP 628–652 M Ft-os mai ára egy 100%-ban hegyvidéki zöldmezős építés tőketörlesztését tartalmazta, míg az MKIF 525 M-es átlaga egy már megépült hálózat üzemeltetését, 538 km azonnali szintrehozását és az M1 forgalom alatti 2x3 sávosítását fedi le.
+
 
 ---
 
@@ -185,6 +193,7 @@ A kutatás során felhasznált hivatalos dokumentumok a [`data/`](file:///C:/Use
 4. **04_Magyar_Kozut_Beszamolok:** 2020. és 2021. évi auditált éves beszámolók, mérlegek és OCR átiratok.
 5. **05_Kuria_es_Birosagi_Iteletek:** [Kúria Pfv.IV.21.194/2023/15. jogerős ítélet](file:///C:/Users/lszok/Documents/_autopalya/data/05_Kuria_es_Birosagi_Iteletek/Kuria_Pfv_IV_21194_2023_15_Anonim_Itelet.pdf) és az [Alkotmánybíróság 3372/2024. AB végzése](file:///C:/Users/lszok/Documents/_autopalya/data/05_Kuria_es_Birosagi_Iteletek/3372_2024_AB_vegzes_MKIF_Autopalya.pdf).
 6. **06_Szakirodalom_Tokekoltseg:** [EPEC / EIB Value for Money Guide](file:///C:/Users/lszok/Documents/_autopalya/data/06_Szakirodalom_Tokekoltseg/EPEC_EIB_Value_for_Money_Assessment.pdf), valamint Voszka Éva és Major Iván lektorált akadémiai tanulmányai.
+7. **07_Sajto_es_Koltsegvetesi_Forrasok:** [Telex cikk (2022)](file:///C:/Users/lszok/Documents/_autopalya/data/07_Sajto_es_Koltsegvetesi_Forrasok/Telex_2022_05_25_Autopalya_Koncesszio_Kerdesei.md) az EKR ajánlatról (96,2 M Ft/km/év), [G7 elemzés (2023)](file:///C:/Users/lszok/Documents/_autopalya/data/07_Sajto_es_Koltsegvetesi_Forrasok/G7_2023_01_31_Extraprofit_Meszarosek_Autopalya.md) a költségvetésről (bruttó 182 Mrd Ft / 147,1 M Ft/km/év), [613/2022. Korm. rendelet kivonat](file:///C:/Users/lszok/Documents/_autopalya/data/07_Sajto_es_Koltsegvetesi_Forrasok/Magyar_Kozlony_613_2022_Korm_rendelet_2023_koltsegvetes.md), [Kormany.hu hivatalos közlemény (2026)](file:///C:/Users/lszok/Documents/_autopalya/data/07_Sajto_es_Koltsegvetesi_Forrasok/Kormany_hu_2026_09_18_Allam_Kiszallna_Autopalya_Koncessziobol.md) a 2026-os 363 Mrd Ft kifizetésről és a 35 éves 23 196 Mrd Ft keretről, valamint a [Tételes forrás- és számeredet-jegyzék](file:///C:/Users/lszok/Documents/_autopalya/data/07_Sajto_es_Koltsegvetesi_Forrasok/FORRASOK_ATTEKINTESE.md).
 
 ---
 
@@ -200,7 +209,8 @@ autopalya-koncesszio-audit/
 │   ├── 03_KSH_Adatok/                      # KSH STADAT-táblázatok (CSV, MD)
 │   ├── 04_Magyar_Kozut_Beszamolok/         # Hivatalos beszámolók és OCR-átiratok
 │   ├── 05_Kuria_es_Birosagi_Iteletek/      # Kúriai és alkotmánybírósági döntések
-│   └── 06_Szakirodalom_Tokekoltseg/        # Nemzetközi és hazai szakirodalom
+│   ├── 06_Szakirodalom_Tokekoltseg/        # Nemzetközi és hazai szakirodalom
+│   └── 07_Sajto_es_Koltsegvetesi_Forrasok/ # EKR ajánlati, költségvetési és sajtóforrások (MD)
 ├── src/                                    # Pénzügyi-mérnöki audit forráskód (Zero-Mock)
 │   ├── __init__.py
 │   ├── ksh_chains.py                       # KSH láncszorzó-számítás

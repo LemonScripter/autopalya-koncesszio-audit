@@ -142,6 +142,50 @@ $$
 
 ---
 
+### 2.3. A díjak időbeli és inflációs pályája: a 96,2 milliós alapdíjtól az 525 milliós életciklus-átlagig
+
+Az autópálya-koncessziós díjak megítélésének legfőbb módszertani forrása az, hogy a különböző időpontokban és eltérő számviteli/költségvetési vetületekben közzétett számokat (96,2 millió, 147 millió, 293 millió és 525 millió Ft/km/év) gyakran közvetlenül egymással vagy egy másik projekt statikus bázisával vetik össze. Valójában ezek a számok nem egymásnak ellentmondó tételek, hanem **ugyanannak a díjnak a szerződéses, inflációs és beruházási felfutási pályáját** mutatják be:
+
+1. **A szerződéses induló bázisár (2022. május, EKR nyertes ajánlat): nettó 96,201 millió Ft / km / év.**[^6]  
+   A Themis magántőkealap vezette nyertes konzorcium közbeszerzési ajánlatában rögzített fajlagos koncessziós szolgáltatási díj az 1237 km-es hálózatra vonatkozik, és két összetevőből áll: az alap rendelkezésre állási díjból (RÁD, tiszta üzemeltetés és fenntartás) és a rendelkezésre állás alapú szolgáltatási díjból (RÁASZD, az 538 km-es burkolat-szintrehozási program amortizációja). Ez az összeg nettóban és 2022-es bázisáron értendő; nem tartalmazza sem az azóta bekövetkezett inflációt, sem az új autópályák és sávbővítések beruházási tőkeköltségét.
+
+2. **Az első teljes év költségvetési ténye (2023): bruttó 147,1 millió Ft / km / év (nettó 115,9 millió Ft / km / év).**[^7]  
+   A 2023-as költségvetés (a 613/2022. Korm. rendelet módosítása után) bruttó 182 milliárd forintot (nettó 143,3 milliárd Ft-ot) allokált az MKIF kifizetéseire. Az 1237 km-es hálózatra vetítve ez pontosan nettó 115,9 millió, illetve bruttó 147,1 millió Ft/km/év.  
+   *Hogyan nőtt a 96,2 millió 115,9 millióra?* Az indexálási mechanizmus révén: a 2022-es év extrém, 14,5%-os KSH inflációja azonnal beépült a díjképletbe ($96,2 \times 1,20 \approx 115,5 \text{ M Ft}$ nettó). A költségvetésből pedig a 27%-os általános forgalmi adóval együtt bruttóban fizet az állam ($115,9 \times 1,27 \approx 147,1 \text{ M Ft}$).
+
+3. **A megemelt kifizetés és beruházási felfutás (2026): bruttó 293,5 millió Ft / km / év.**[^8]  
+   A kormányzat 2026. szeptemberi hivatalos tájékoztatása szerint az állam 2026-ban 363 milliárd forintot fizet a gyorsforgalmi úthálózat működtetéséért és fejlesztéséért. Az 1237 km-re vetítve ez évi 293,5 millió Ft/km (bruttó).  
+   A növekedés kettős motorja: egyrészt a 2022 és 2026 közötti, összesítve 35–40%-ot meghaladó kumulált infláció, másrészt a tőkeberuházási feladatok megkezdése (az M1 2x3 sávosítás előkészítése és a nehézburkolat-cserék).
+
+4. **A 35 éves teljes életciklus névleges átlaga (Life-Cycle Cost): 525,0 millió Ft / km / év (bruttó).**[^8]  
+   A kormányzat által bejelentett 35 éves teljes nominális kifizetési kötelezettség 23 196 milliárd forint. Ha ezt az összeget elosztjuk a 35 évvel ($662,7 \text{ Mrd Ft / év}$) és az induló 1237 km-rel, mintegy 535,8 millió Ft/km/év adódik (amelyet a sajtó és a korábbi számítások 525 millió Ft/km/év kerekített átlagként kezeltek).  
+   *Módszertani tisztázás:* Ez a szám nem az induló kilométerdíj, hanem a következő három és fél évtized összes jövőbeli inflációját és a több ezer milliárdos fejlesztési programot (M1 bővítés, M81 új építés, műtárgyak) magában foglaló névleges átlagköltségvetési mutató.
+
+---
+
+### 2.4. Integrált összehasonlítási mátrix: az alma-körte probléma módszertani feloldása
+
+A 2010 előtti (M6) és a 2022-es (MKIF) koncessziós konstrukciók összehasonlításának legfőbb akadálya a tőketartalom és a szerződéses feladatok mély strukturális aszimmetriája (az „alma és körte” klasszikus esete).
+* Az **M6 PPP esetében a magánpartner zöldmezőben, a semmiből építette meg a sztrádát** hegyvidéki terepen, 4 ikeralagúttal és völgyhidakkal. A 2010-es 267,6 milliós bázisdíj (ami mai KSH-áron 628–652 millió Ft) túlnyomó része az építési hitel tőke- és kamattörlesztése (CAPEX) volt.
+* Ezzel szemben az **MKIF 2022-ben 1237 km működő, készen átadott autópályát vett át**, amelyet a magyar adófizetők az elmúlt 30 évben már kifizettek. A feladat döntő része az üzemeltetés és a felületi szintrehozás volt, míg az új építés aránya a teljes hálózatnak csupán mintegy negyedét teszi ki.
+
+Hogy a két modellt tudományos és gazdaságtani értelemben kikezdhetetlenül össze lehessen vetni, a kiadásokat funkcionális rétegekre (szintekre) kell bontani:
+
+| Vizsgálati szint / kategória | 2010 előtti M6 PPP (ÁSZ 1118 alapján) | 2022-es MKIF koncesszió (szerződés és tényadatok) | Módszertani feloldás (alma az almával) |
+| :--- | :--- | :--- | :--- |
+| **I. szint: Tiszta üzemeltetés (OPEX)**<br>*(Rutin karbantartás, hóeltakarítás, kaszálás, üzemeltetés)* | **~35 M Ft/km/év** (2010 bázis)<br>→ **~82 M Ft/km/év** (2024-re KSH-val inflálva) | **~65 M Ft/km/év** (2022 bázis, nettó)<br>*(Magyar Közút referencia: 75–85 M Ft/km/év)* | **Azonos fizikai tartalom:** meglévő, működő pálya napi fenntartása. Az MKIF és az állami/történeti költségszintek arányosak, nincs kirívó eltérés. |
+| **II. szint: Burkolat-szintrehozás (RÁASZD)**<br>*(538 km nagyfelületű aszfaltozás, kopóréteg-csere)* | Benne volt a zöldmezős beruházás garanciális ciklusában (nem volt külön tétel) | **~31,2 M Ft/km/év** (2022 bázis, nettó)<br>*(Az 538 km szintrehozás 10–11 éves törlesztése)* | Az MKIF **96,2 milliós induló egységára** (I. + II. szint) azért haladja meg a tiszta üzemeltetést, mert a leromlott burkolatok gyorsított felújításának árát is fedezi. |
+| **III. szint: Beruházás és építés (CAPEX)**<br>*(Új építés vs. forgalom alatti 2x3 sávos bővítés)* | **100% hegyvidéki zöldmező:** 4 ikeralagút, viaduktok.<br>Ár: **2,8–3,4 Mrd Ft/km** (2010)<br>→ Mai KSH áron: **6,5–8,0 Mrd Ft/km** | **Kevert portfólió:**<br>• Új építés (272 km): **3,8–4,8 Mrd Ft/km**<br>• M1 bővítés (78 km): **4,0–5,5 Mrd** (közvetlen), all-in: **7,9–10,3 Mrd Ft/km** | **Műszaki egyenértékűség:** A forgalom alatti 3 sávosítás és a műtárgycsere logisztikai felára felér a hegyvidéki új építéssel; a síkvidéki zöldmező olcsóbb nála. |
+| **IV. szint: Teljes állami teher (All-in LCC)**<br>*(Életciklus-költség egyetlen fajlagos km-díjban)* | **628 – 652 M Ft/km/év** (2024 reálértéken)<br>*(Az összes építési tőketörlesztés, kamat és üzemeltetés együttes összege)* | **• 2022 induló alap:** 96,2 M (nettó)<br>**• 2023 tény:** 147,1 M (bruttó, inflációval)<br>**• 2026 tény:** 293,5 M (bruttó, beruházással)<br>**• 35y névleges átlag:** **525,0 M Ft/km/év** | **Az 525 millió helye a modellben:** Nem induló díjként, hanem a 35 év kumulált, beruházásokkal növekvő névleges átlagaként hasonlítható az M6 teljes terheléséhez. |
+
+#### Közérthető módszertani értelmezés
+Amikor azt vizsgáljuk, miként hasonlítható össze a 2010 előtti és a 2022-es koncesszió értéke, a válasz attól függ, melyik szintet nézzük:
+1. **Ha csak az induló üzemeltetést nézzük:** Az MKIF 96,2 milliós alapdíja (2023-ban 147 M bruttó) töredéke az M6 628 milliós mai díjának. Ez azonban természetes: az MKIF meglévő pályát üzemeltet, míg az M6 díjában az állam 100%-ban magát az autópálya-építést törleszti.
+2. **Ha a műszaki beruházási költségeket nézzük:** Az M1 forgalom alatti szélesítése (7,9–10,3 Mrd Ft/km) műszakilag és költségében is összemérhető az M6 legdrágább hegyvidéki szakaszaival, mivel a hidak teljes újjáépítése és a napi 100 ezer jármű melletti terelés drasztikus felárat jelent.
+3. **Ha a teljes 35 éves állami kasszát nézzük:** Az évi átlagos ~525–535 millió Ft/km teher nominálisan közelít az M6 reálértékéhez, de lényeges különbség, hogy az MKIF esetében ez az összeg már egy vegyes hálózatot (üzemeltetés + felújítás + kapacitásbővítés + új utak) finanszíroz 35 év kumulált inflációja mellett.
+
+---
+
 ## 3. Fizikai tőketartalom és mérnöki logisztika
 
 ### 3.1. Zöldmezős beruházás versus forgalom alatti kapacitásbővítés
@@ -257,8 +301,11 @@ $$
 
 ### 5.2. Az ÁSZ megállapítása a mérlegen kívüliségről és a döntés-előkészítésről
 
-Az Állami Számvevőszék 1118. számú jelentésének 39. és 40. oldala szó szerint rögzíti a 2010 előtti PPP-döntések hátterét:
-> *„A Kormány döntése alapján a Közbeszerzési Eljárás feltételeit úgy kellett kialakítani, hogy a beruházás az államháztartási mérlegen kívüli tétel legyen... A VFM számítások során feltételezték, hogy a tradicionális állami beruházás mintegy 40 Mrd Ft-tal magasabb költséggel valósulna meg, amely torzította a döntést.”*
+Az Állami Számvevőszék 1118. számú jelentése (39–40. oldal) részletesen dokumentálja a 2010 előtti PPP-döntések előkészítését. A jelentés rögzíti, hogy a pénzügyi tanácsadóval kötött szerződés írta elő:
+> *„...a Közbeszerzési Eljárás alapján létrejövő koncessziós szerződés aláírásakor érvényben lévő, vonatkozó EUROSTAT állásfoglalás alapján a Közbeszerzési Eljárás az államháztartási mérlegen kívüli tétel legyen; azaz a »maastrichti kritériumoknak« megfelelően számított államháztartási hiányt, illetve államadósságot ne növeljék egy összegben a koncesszió teljes futamideje alatt felmerülő állami kötelezettségvállalások...”* (39. oldal)
+
+A tradicionális állami beruházással való összehasonlítás (VfM) kapcsán a jelentés megállapítja, hogy a számítások során az állami megvalósítás esetén mintegy 40 milliárd forintos építési költségtöbbletet feltételeztek, amelynek fényében:
+> *„A feltételezett 40 Mrd Ft-os költségtöbbletet összevetve a PPP javára kimutatott 16,1-17,5 Mrd Ft-os költségelőnnyel teljes körűen nem igazolt a pénzügyi tanácsadó megállapítása, ami szerint »a projekt PPP struktúrában való létrehozása „value for money”, azaz ár-érték aránya magasabb, mintha tradicionális állami beruházásként valósították volna meg«.”* (40. oldal)
 
 Az ÁSZ rámutatott: az állam a maastrichti adósságmutatók azonnali növekedésének elkerüléséért cserébe évtizedeken át merev, a közvetlen állami hitelnél drágább költségvetési kötelezettséget vállalt magára. Ez a megállapítás alátámasztja azt a közgazdasági kritikát, miszerint a mérlegen kívüliség fiskális illúziót teremt, ha a magasabb finanszírozási költséget nem ellensúlyozza igazolt hatékonysági többlet. A 2022-es konstrukció esetében az egyik lehetséges fiskális ösztönző a maastrichti és ESA-elszámolási hatás kezelése lehetett; ennek tényleges szerepe a 2022-es döntés-előkészítő VFM- és ESA-dokumentáció teljes ismerete nélkül nem bizonyítható ugyanolyan közvetlenül, mint a 2010 előtti PPP-k esetében.
 
@@ -394,3 +441,9 @@ A 2022-es modell hazai tulajdonosi háttere önmagában nem jelent közpénzügy
 [^4]: **European PPP Expertise Centre (EPEC) / European Investment Bank (EIB):** *Value for Money Assessment – Review of approaches and key issues.* EIB, Luxembourg, 2015, pp. 22–32; HM Treasury: *The Green Book: Central Government Guidance on Appraisal and Evaluation.* UK Government, London, 2020; Voszka Éva: *Államosítás, privatizáció, államosítás.* Közgazdasági Szemle, LX. évf., 2013; Major Iván: *A korlátozó szabályozástól az ösztönző szabályozásig.* Közgazdasági Szemle, LI. évf., 2004.
 
 [^5]: **Tulajdonosi és érdekeltségi háttér forrásai:** A koncessziós eljárásban nyertes konzorcium magántőkealap-struktúrája és alapkezelői háttere: 444.hu feltáró elemzése (*Már milliárdos osztalékhoz jutottak Mészárosék az autópálya-koncesszión*, 2024. május 31.); G7.hu gazdasági elemzései a gyorsforgalmi koncessziós magántőkealapok struktúrájáról (a konzorciumot alkotó hét magántőkealap: Themis, Konzum PE, Opus Bridge, Via M1, Via M3, Via M5, Via M7; az alapok kezelői és kapcsolt vállalkozásai a nyilvános cégbírósági adatok szerint Mészáros Lőrinc és Szíjj László gazdasági érdekeltségeihez kapcsolódnak).
+
+[^6]: **Közbeszerzési és ajánlati alapdíj:** Elektronikus Közbeszerzési Rendszer (EKR): *Gyorsforgalmi úthálózat koncesszióba adása* (EKR000645412021). A Themis Magántőkealap által vezetett nyertes konzorcium ajánlatában rögzített egységár: nettó 96,201 millió Ft/km/év (RÁD + RÁASZD). Részletes sajtóelemzésként lásd: Brückner Gergely: *Furcsaságok sora övezi Mészáros Lőrincék autópálya-koncesszióját.* Telex, 2022. május 25. Helyi archivált forrás: `data/07_Sajto_es_Koltsegvetesi_Forrasok/Telex_2022_05_25_Autopalya_Koncesszio_Kerdesei.md`.
+
+[^7]: **Költségvetési tényadatok és indexálás (2023):** *2022. évi XXV. törvény Magyarország 2023. évi központi költségvetéséről*, valamint a módosító *613/2022. (XII. 29.) Korm. rendelet Magyarország 2023. évi központi költségvetésének a veszélyhelyzettel összefüggő eltérő szabályairól*, 3. melléklet (XLIII. Az állami vagyonnal kapcsolatos bevételek és kiadások fejezet: bruttó 182,0 milliárd Ft előirányzat az MKIF rendelkezésre állási díjára). Elemzésként lásd: Jandó Zoltán: *Felháborító az ezer milliárdos extraprofit a multiknál, Mészároséknál örvendetes.* G7.hu / Telex, 2023. január 31. Helyi archivált források: `data/07_Sajto_es_Koltsegvetesi_Forrasok/Magyar_Kozlony_613_2022_Korm_rendelet_2023_koltsegvetes.md` és `data/07_Sajto_es_Koltsegvetesi_Forrasok/G7_2023_01_31_Extraprofit_Meszarosek_Autopalya.md`.
+
+[^8]: **Kormányzati adatközlés a 2026-os kifizetésről és a 35 éves szerződéses keretről:** Magyarország Kormánya / Kormányzati Tájékoztatási Központ: *Az állam kiszállna a 35 éves autópálya-koncesszióból.* Hivatalos közlemény a szerződés felülvizsgálatáról, Kormany.hu, 2026. szeptember 18. A dokumentum rögzíti: a 2026-os éves állami kifizetés 363 milliárd Ft (1237 km-re vetítve 293,5 M Ft/km/év), míg a 35 éves teljes nominális állami fizetési kötelezettség 23 196 milliárd Ft (amely a 35 évre és 1237 km-re vetítve 535,8 M Ft/km/év, kerekítve 525 M Ft/km/év névleges átlagot ad). Helyi archivált forrás: `data/07_Sajto_es_Koltsegvetesi_Forrasok/Kormany_hu_2026_09_18_Allam_Kiszallna_Autopalya_Koncessziobol.md`.

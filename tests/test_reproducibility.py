@@ -23,7 +23,9 @@ from src.km_tariff_comparison import (
     method1_domestic_construction,
     method2_contractual_fx,
     calculate_relative_deltas,
-    get_full_tariff_comparison_table
+    get_full_tariff_comparison_table,
+    calculate_mkif_budget_evolution,
+    get_integrated_comparison_matrix
 )
 from src.npv_model import (
     fisher_nominal_rate,
@@ -195,3 +197,64 @@ def test_penalties_sla_modern_thresholds():
     assert eval_fail["compliant"] is False
     assert eval_fail["penalty_triggered"] is True
     assert eval_fail["iri"]["pass"] is False
+
+
+def test_integrated_comparison_matrix_and_budget_evolution():
+    """
+    Ellenőrzi az MKIF költségvetési evolúcióját (2.3. alfejezet) és
+    az integrált 4 szintes összehasonlító mátrixot (2.4. alfejezet).
+    """
+    evo = calculate_mkif_budget_evolution()
+    assert evo["base_bid_net_per_km"] == 96.201
+    assert evo["fee_2023_gross_per_km"] == 147.1
+    assert evo["fee_2023_net_per_km"] == 115.9
+    assert evo["fee_2026_gross_per_km"] == 293.5
+    assert evo["fee_35y_nominal_gross_per_km"] == 535.8
+
+    matrix_df = get_integrated_comparison_matrix()
+    assert len(matrix_df) == 4
+    categories = matrix_df["Vizsgálati Szint / Kategória"].tolist()
+    assert any("I." in c for c in categories)
+    assert any("II." in c for c in categories)
+    assert any("III." in c for c in categories)
+    assert any("IV." in c for c in categories)
+
+
+def test_source_files_and_references_exist():
+    """
+    Ellenőrzi, hogy a felhasznált új primer és szekunder forrásfájlok le vannak-e mentve
+    a data/ mappába, és tartalmazzák-e a hivatkozott kulcsszámokat.
+    """
+    base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    sources_dir = os.path.join(base_dir, "data", "07_Sajto_es_Koltsegvetesi_Forrasok")
+
+    telex_file = os.path.join(sources_dir, "Telex_2022_05_25_Autopalya_Koncesszio_Kerdesei.md")
+    assert os.path.exists(telex_file), f"Hiányzik: {telex_file}"
+    with open(telex_file, "r", encoding="utf-8") as f:
+        telex_content = f.read()
+    assert "96,201" in telex_content or "96,2" in telex_content
+
+    g7_file = os.path.join(sources_dir, "G7_2023_01_31_Extraprofit_Meszarosek_Autopalya.md")
+    assert os.path.exists(g7_file), f"Hiányzik: {g7_file}"
+    with open(g7_file, "r", encoding="utf-8") as f:
+        g7_content = f.read()
+    assert "182 milliárd" in g7_content
+    assert "230 milliárd" in g7_content
+
+    kormany_file = os.path.join(sources_dir, "Kormany_hu_2026_09_18_Allam_Kiszallna_Autopalya_Koncessziobol.md")
+    assert os.path.exists(kormany_file), f"Hiányzik: {kormany_file}"
+    with open(kormany_file, "r", encoding="utf-8") as f:
+        kormany_content = f.read()
+    assert "363 milliárd" in kormany_content
+    assert "23 196 milliárd" in kormany_content
+
+    kozloeny_file = os.path.join(sources_dir, "Magyar_Kozlony_613_2022_Korm_rendelet_2023_koltsegvetes.md")
+    assert os.path.exists(kozloeny_file), f"Hiányzik: {kozloeny_file}"
+    with open(kozloeny_file, "r", encoding="utf-8") as f:
+        kozloeny_content = f.read()
+    assert "182,0 milliárd" in kozloeny_content or "182" in kozloeny_content
+
+    overview_file = os.path.join(sources_dir, "FORRASOK_ATTEKINTESE.md")
+    assert os.path.exists(overview_file), f"Hiányzik: {overview_file}"
+
+

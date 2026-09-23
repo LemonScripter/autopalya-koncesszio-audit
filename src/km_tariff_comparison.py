@@ -135,9 +135,89 @@ def get_full_tariff_comparison_table() -> pd.DataFrame:
     return pd.DataFrame(rows)
 
 
+def calculate_mkif_budget_evolution(
+    network_km: float = 1237.0,
+    base_bid_net_per_km: float = 96.201,
+    budget_2023_gross_mrd: float = 182.0,
+    budget_2026_gross_mrd: float = 363.0,
+    total_35y_nominal_mrd: float = 23196.0,
+    vat_rate: float = 0.27
+) -> Dict[str, Any]:
+    """
+    Kiszámítja az MKIF kifizetési pályájának evolúcióját az induló ajánlattól a 35 éves átlagig:
+    1. 2022 nyertes tenderajánlat (RÁD + RÁASZD): 96,201 M Ft/km/év (nettó).
+    2. 2023 költségvetési tényadat (182 Mrd Ft bruttó): 147,1 M Ft/km/év bruttó (nettó 115,8 M Ft/km/év).
+       - Magyarázat: a 2022-es 14,5%-os KSH infláció indexálása nettó ~115,5 M-re + 27% ÁFA.
+    3. 2026 hivatalos kifizetés (363 Mrd Ft bruttó): 293,5 M Ft/km/év bruttó.
+       - Magyarázat: 2022-2026 kumulált ~35-40% infláció + nehézfelújítások és M1 bővítés előkészítése.
+    4. 35 éves teljes nominális átlag: 23 196 Mrd / 35 év / 1237 km = 535,8 M Ft/km/év (a modellben: 525,0 M).
+    """
+    fee_2023_gross = (budget_2023_gross_mrd * 1000.0) / network_km
+    fee_2023_net = fee_2023_gross / (1.0 + vat_rate)
+
+    fee_2026_gross = (budget_2026_gross_mrd * 1000.0) / network_km
+    fee_2026_net = fee_2026_gross / (1.0 + vat_rate)
+
+    annual_35y_nominal_mrd = total_35y_nominal_mrd / 35.0
+    fee_35y_nominal_gross = (annual_35y_nominal_mrd * 1000.0) / network_km
+
+    return {
+        "network_km": network_km,
+        "base_bid_net_per_km": round(base_bid_net_per_km, 3),
+        "budget_2023_gross_mrd": budget_2023_gross_mrd,
+        "fee_2023_gross_per_km": round(fee_2023_gross, 1),
+        "fee_2023_net_per_km": round(fee_2023_net, 1),
+        "budget_2026_gross_mrd": budget_2026_gross_mrd,
+        "fee_2026_gross_per_km": round(fee_2026_gross, 1),
+        "fee_2026_net_per_km": round(fee_2026_net, 1),
+        "total_35y_nominal_mrd": total_35y_nominal_mrd,
+        "annual_35y_nominal_mrd": round(annual_35y_nominal_mrd, 1),
+        "fee_35y_nominal_gross_per_km": round(fee_35y_nominal_gross, 1),
+    }
+
+
+def get_integrated_comparison_matrix() -> pd.DataFrame:
+    """
+    Összeállítja a 4 szintes Integrált Összehasonlítási Mátrixot, amely
+    szétválasztja az üzemeltetést, a szintrehozást, a beruházást és a teljes életciklust,
+    ezzel egzakt módon feloldja az 'alma-körte' problémát.
+    """
+    rows = [
+        {
+            "Vizsgálati Szint / Kategória": "I. Tiszta üzemeltetés (OPEX)",
+            "2010 előtti M6 PPP (ÁSZ 1118)": "~35 M Ft/km (2010 bázis) -> ~82 M Ft/km (2024 KSH reál)",
+            "2022-es MKIF Koncesszió (Szerződés / Tény)": "~65 M Ft/km (2022 bázis, nettó) [Közút ref: 75–85 M]",
+            "Módszertani feloldás (Alma az almával)": "Azonos fizikai tartalom: rutin karbantartás, hóeltakarítás, kaszálás meglévő pályán."
+        },
+        {
+            "Vizsgálati Szint / Kategória": "II. Burkolat-szintrehozás (RÁASZD)",
+            "2010 előtti M6 PPP (ÁSZ 1118)": "Zöldmezős garanciában beépítve (nincs külön szintrehozási díjtétel)",
+            "2022-es MKIF Koncesszió (Szerződés / Tény)": "~31,2 M Ft/km/év (nettó) [538 km nagyfelületű aszfaltozás törlesztése]",
+            "Módszertani feloldás (Alma az almával)": "Az MKIF 96,2 M alapdíja = 65 M (OPEX) + 31,2 M (RÁASZD). A garanciális felújítás beépül a díjba."
+        },
+        {
+            "Vizsgálati Szint / Kategória": "III. Beruházás és építés (CAPEX)",
+            "2010 előtti M6 PPP (ÁSZ 1118)": "100% zöldmező hegyvidék (4 ikeralagút): 2,8–3,4 Mrd/km (2010) -> 6,5–8,0 Mrd/km (2024)",
+            "2022-es MKIF Koncesszió (Szerződés / Tény)": "Kevert: új építés 3,8–4,8 Mrd/km; M1 2x3 sáv forgalom alatt: 4,0–5,5 Mrd (all-in: 7,9–10,3 Mrd)",
+            "Módszertani feloldás (Alma az almával)": "A forgalom alatti kapacitásbővítés műszaki felára felér a hegyvidéki zöldmezős költségszinttel."
+        },
+        {
+            "Vizsgálati Szint / Kategória": "IV. Teljes állami teher (All-in LCC)",
+            "2010 előtti M6 PPP (ÁSZ 1118)": "628–652 M Ft/km/év (2024-re indexált teljes tőke + kamat + üzemeltetés)",
+            "2022-es MKIF Koncesszió (Szerződés / Tény)": "96,2 M (2022 nettó) -> 147 M (2023 bruttó) -> 293 M (2026 bruttó) -> 525 M (35y átlag)",
+            "Módszertani feloldás (Alma az almával)": "Az 525 M nem induló díj, hanem a 35 év növekvő, beruházásokkal és inflációval terhelt névleges átlaga."
+        }
+    ]
+    return pd.DataFrame(rows)
+
+
 if __name__ == "__main__":
     import sys
     sys.stdout.reconfigure(encoding="utf-8")
     print("=== FAJLAGOS KILOMÉTERDÍJAK ÖSSZEHASONLÍTÁSA (M6 vs MKIF) ===")
     df = get_full_tariff_comparison_table()
     print(df.to_string(index=False))
+    print("\n=== INTEGRÁLT 4 SZINTES ÖSSZEHASONLÍTÁSI MÁTRIX ===")
+    matrix = get_integrated_comparison_matrix()
+    print(matrix.to_string(index=False))
+
